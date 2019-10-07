@@ -25,6 +25,9 @@ img{
 	top: 20vh;
 	z-index: 2;
 }
+.card{
+	display: inline-block;
+}
 .card:hover{
 	cursor: pointer;
 	box-shadow: 5px 5px 15px grey;
@@ -45,7 +48,7 @@ img{
 }
 .row{
 	margin: 35px auto;
-	align-content: space-between;
+	align-items: center;
 }
 .col-lg{
 	margin: 0 5px;

@@ -21,19 +21,19 @@
 			<!-- Brand -->
 			<a class="navbar-brand" href="#">Navbar</a>
 
-  			<!-- Toggler/collapsibe Button -->
-  			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-    			<span class="navbar-toggler-icon"></span>
-  			</button>
+			<!-- Toggler/collapsibe Button -->
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+				<span class="navbar-toggler-icon"></span>
+			</button>
 
 			<!-- Navbar links -->
 			<div class="collapse navbar-collapse" id="collapsibleNavbar">
 				<ul class="navbar-nav">
 					<li class="nav-item">
-						<a class="nav-link" href="#">Link</a>
+						<a class="nav-link" href="#gallery">Gallery</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#">Link</a>
+						<a class="nav-link" href="#cards">Cards</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="#">Link</a>
@@ -47,7 +47,7 @@
 			<p class="lead">Hello there young traveller</p>
 
 			<!-- Containers row of 3 images -->
-			<div class="row">
+			<div class="row" id="gallery">
 				<div class="col-lg col-img-container">
 					<h2 class="text-center">Example 1</p>
 					<img class="col-img" src="assets/buildingInField.jpg">
@@ -67,6 +67,33 @@
 				<div class="col-lg-4">
 					<h3>This is a heading</h3>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum consectetur, iste voluptatibus fuga non laboriosam minima aut aperiam totam maiores repellat fugit. Porro totam enim praesentium optio, sapiente ea numquam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum ea provident ab libero, iusto, nihil quod, dolor ut et aliquam sed aut mollitia explicabo ipsa? Accusamus quod autem esse a. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo cupiditate magni harum commodi quis perspiciatis perferendis, asperiores, facere aliquam corporis natus. Deleniti illum mollitia, architecto illo fugit sequi a dolorem!</p>
+
+					<!-- Button trigger modal -->
+					<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+						Launch demo modal
+					</button>
+
+					<!-- Modal -->
+					<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+						<div class="modal-dialog" role="document">
+							<div class="modal-content">
+								<div class="modal-header">
+									<h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+										<span aria-hidden="true">&times;</span>
+									</button>
+								</div>
+								<div class="modal-body">
+									...
+								</div>
+								<div class="modal-footer">
+									<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+									<button type="button" class="btn btn-primary">Save changes</button>
+								</div>
+							</div>
+						</div>
+					</div>
+					
 				</div>
 				<div class="col-lg-8">
 					<img src="assets/holden.jpg">
@@ -74,7 +101,7 @@
 			</div>
 
 <!-- Cards from bootstraps -->
-			<div class="row">
+			<div class="row" id="cards">
 				<!-- Is held inside of a column so that I am able to line up multiple cards -->
 				<div class="col-lg-4">
 					<div class="card">
@@ -111,7 +138,7 @@
 
 				<div class="col-lg-4">
 					<div class="card">
-						<img src="assets/bird.jpg" class="card-img-top" alt="...">
+						<img src="assets/bird.jpg" class="card-img-top align-self-start" alt="...">
 						<div class="card-body">
 							<h5 class="card-title">A Pretty Birdy</h5>
 							<p class="card-text">An image of a pretty birdy sitting in the trees. This bird has a magestic blue colour scheme and bright yellow eyes.</p>
