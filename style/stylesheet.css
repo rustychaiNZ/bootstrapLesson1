@@ -25,6 +25,10 @@ img{
 	top: 20vh;
 	z-index: 2;
 }
+.card:hover{
+	cursor: pointer;
+	box-shadow: 5px 5px 15px grey;
+}
 .test{
 	background: darkslategrey;
 	/*border: 3px solid black;*/
@@ -34,22 +38,30 @@ img{
 }
 .col-img{
 	width: 500px;
+	max-width: 100%;
 	height: auto;
 	margin: auto;
 	display: block;
 }
 .row{
 	margin: 35px auto;
+	align-content: space-between;
 }
 .col-lg{
 	margin: 0 5px;
-	background-color: lightgrey;
-}
-.col-img-container:hover{
-	cursor: pointer;
-	box-shadow: 5px -5px 15px grey;
+	/*background-color: lightgrey;*/
 }
 /*.my-container:hover{
 	cursor: pointer;
 	box-shadow: 5px -5px 15px darkgrey;
 }*/
+
+@media only screen and (max-width: 500px) {
+	.my-container{
+		max-width: 100%;
+		width: 100%;
+		position: relative;
+		left: 0;
+		top: -50px;
+	}
+}
