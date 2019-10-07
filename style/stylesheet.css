@@ -1,0 +1,55 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+h1{
+	color: #333;
+	border-radius: 0;
+	border-radius: 0;
+}
+img{
+	width: 100%;
+}
+.jumbotron{
+	border-radius: 0;
+	background-color: #cba;
+	padding: 80px;
+	z-index: 88;
+}
+.my-container{
+	background-color: #abc;
+	max-width: 90%;
+	position: absolute;
+	left: 5%;
+	top: 20vh;
+	z-index: 2;
+}
+.test{
+	background: darkslategrey;
+	/*border: 3px solid black;*/
+	height: 500px;
+	width: 500px;
+	margin: auto;
+}
+.col-img{
+	width: 500px;
+	height: auto;
+	margin: auto;
+	display: block;
+}
+.row{
+	margin: 35px auto;
+}
+.col-lg{
+	margin: 0 5px;
+	background-color: lightgrey;
+}
+.col-img-container:hover{
+	cursor: pointer;
+	box-shadow: 5px -5px 15px grey;
+}
+/*.my-container:hover{
+	cursor: pointer;
+	box-shadow: 5px -5px 15px darkgrey;
+}*/
